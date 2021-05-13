@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MCTSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PCFPath>C:/Users\jpotter\Desktop\working\kanz_421\kanz10.dat</PCFPath>
+  <PrimaryModel>slopeip</PrimaryModel>
+  <PrimaryModelBatchRun>false</PrimaryModelBatchRun>
+  <IsGSM>false</IsGSM>
+  <IsGSF>false</IsGSF>
+  <IsSecondaryGSM>false</IsSecondaryGSM>
+  <IsRotated>false</IsRotated>
+  <IsSubblocked>false</IsSubblocked>
+  <CalculationType>Python</CalculationType>
+  <LimitsUnits>Indices</LimitsUnits>
+  <LimitsColumn>1, 600</LimitsColumn>
+  <LimitsRow>1, 300</LimitsRow>
+  <LimitsLevel>1, 160</LimitsLevel>
+  <LimitsColumnIdx>1, 600</LimitsColumnIdx>
+  <LimitsRowIdx>1, 300</LimitsRowIdx>
+  <LimitsLevelIdx>1, 160</LimitsLevelIdx>
+  <ShowDetail>false</ShowDetail>
+  <ReportOnlyErrors>false</ReportOnlyErrors>
+  <ReportMissing>false</ReportMissing>
+  <ReportUnder>false</ReportUnder>
+  <ReportOver>false</ReportOver>
+  <EnableDetailReports>false</EnableDetailReports>
+  <MaxReportRecords>100</MaxReportRecords>
+  <BoundaryPartialPercent>0</BoundaryPartialPercent>
+  <GeometryPartialPercent>0</GeometryPartialPercent>
+  <SubCellsPartialResolution>10</SubCellsPartialResolution>
+  <SlicesPartialResolution>20</SlicesPartialResolution>
+  <UseTwoModels>false</UseTwoModels>
+  <PrimaryCalcMode>PerBlock</PrimaryCalcMode>
+  <CalcModeModel2>PerBlock</CalcModeModel2>
+  <SecondaryModelBatchRun>false</SecondaryModelBatchRun>
+  <BoundaryPartialBatchRun>false</BoundaryPartialBatchRun>
+  <GeometryPartialBatchRun>false</GeometryPartialBatchRun>
+  <SubCellsPartialBatchRun>false</SubCellsPartialBatchRun>
+  <SlicesPartialBatchRun>false</SlicesPartialBatchRun>
+  <SBLSubcellMode>false</SBLSubcellMode>
+  <CriteriaFilter>
+    <CriteriaData>
+      <ItemName>RTYPM</ItemName>
+      <Operator>IsDefined</Operator>
+      <Join>And</Join>
+      <SelectCriteriaFilters>true</SelectCriteriaFilters>
+    </CriteriaData>
+  </CriteriaFilter>
+  <GeometryFilter />
+  <PrimarySelectedItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>TOPOO</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>100</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>RTYPM</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>100</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>DIPAZ</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>360</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>DIP</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>-90</ItemMinimum>
+      <ItemMaximum>0</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>WXZON</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>5</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>LEVEL</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>5</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>SLOPE</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>61</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>BFA</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>125</ItemMaximum>
+      <ItemPrecision>0.10000000149011612</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>BENWT</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>29</ItemMaximum>
+      <ItemPrecision>0.10000000149011612</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>BENHT</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>61</ItemMaximum>
+      <ItemPrecision>0.10000000149011612</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>L0SLP</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>61</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>false</WriteItems>
+      <ItemName>INOUT</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>5</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>false</WriteItems>
+      <ItemName>LOMDR</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>360</ItemMaximum>
+      <ItemPrecision>0.10000000149011612</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>false</WriteItems>
+      <ItemName>APDIP</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>-90</ItemMinimum>
+      <ItemMaximum>0</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>false</WriteItems>
+      <ItemName>WDIST</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>300</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>DOMAN</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>1</ItemMinimum>
+      <ItemMaximum>5</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>true</WriteItems>
+      <ItemName>SECTR</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>50</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+    <ModelItems>
+      <ParamId>0</ParamId>
+      <WriteItems>false</WriteItems>
+      <ItemName>WXDST</ItemName>
+      <SubBlocked>No</SubBlocked>
+      <ItemMinimum>0</ItemMinimum>
+      <ItemMaximum>200</ItemMaximum>
+      <ItemPrecision>1</ItemPrecision>
+    </ModelItems>
+  </PrimarySelectedItems>
+  <SecondarySelectedItems />
+  <QuickCalcList />
+  <SummaryRepList>
+    <SummaryReportData>
+      <Bench>1</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>1110</NumberofComputedBlocks>
+      <NumberofMissingBlocks>1110</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>2</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>1663</NumberofComputedBlocks>
+      <NumberofMissingBlocks>1269</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>3</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>2313</NumberofComputedBlocks>
+      <NumberofMissingBlocks>1222</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>4</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>3119</NumberofComputedBlocks>
+      <NumberofMissingBlocks>1547</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>5</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>4296</NumberofComputedBlocks>
+      <NumberofMissingBlocks>2383</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>6</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>5701</NumberofComputedBlocks>
+      <NumberofMissingBlocks>3428</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>7</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>7617</NumberofComputedBlocks>
+      <NumberofMissingBlocks>4870</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>8</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>10342</NumberofComputedBlocks>
+      <NumberofMissingBlocks>7099</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>9</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>13705</NumberofComputedBlocks>
+      <NumberofMissingBlocks>9947</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>10</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>17203</NumberofComputedBlocks>
+      <NumberofMissingBlocks>12888</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>11</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>20469</NumberofComputedBlocks>
+      <NumberofMissingBlocks>15231</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>12</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>23869</NumberofComputedBlocks>
+      <NumberofMissingBlocks>17578</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>13</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>27571</NumberofComputedBlocks>
+      <NumberofMissingBlocks>20274</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>14</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>30804</NumberofComputedBlocks>
+      <NumberofMissingBlocks>22444</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>15</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>33817</NumberofComputedBlocks>
+      <NumberofMissingBlocks>24314</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>16</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>36880</NumberofComputedBlocks>
+      <NumberofMissingBlocks>26465</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>17</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>40099</NumberofComputedBlocks>
+      <NumberofMissingBlocks>28933</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>18</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>43366</NumberofComputedBlocks>
+      <NumberofMissingBlocks>31651</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>19</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>47003</NumberofComputedBlocks>
+      <NumberofMissingBlocks>34878</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>20</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>51517</NumberofComputedBlocks>
+      <NumberofMissingBlocks>39228</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>21</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>56289</NumberofComputedBlocks>
+      <NumberofMissingBlocks>44150</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>22</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>60953</NumberofComputedBlocks>
+      <NumberofMissingBlocks>48577</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>23</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>64916</NumberofComputedBlocks>
+      <NumberofMissingBlocks>52251</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>24</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>67973</NumberofComputedBlocks>
+      <NumberofMissingBlocks>54974</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>25</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>70750</NumberofComputedBlocks>
+      <NumberofMissingBlocks>57353</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>26</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>73139</NumberofComputedBlocks>
+      <NumberofMissingBlocks>59295</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>27</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>75397</NumberofComputedBlocks>
+      <NumberofMissingBlocks>61000</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>28</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>77498</NumberofComputedBlocks>
+      <NumberofMissingBlocks>62702</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>29</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>79863</NumberofComputedBlocks>
+      <NumberofMissingBlocks>64890</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>30</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>82238</NumberofComputedBlocks>
+      <NumberofMissingBlocks>67448</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>31</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>84355</NumberofComputedBlocks>
+      <NumberofMissingBlocks>69793</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>32</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>85860</NumberofComputedBlocks>
+      <NumberofMissingBlocks>71516</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>33</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>86885</NumberofComputedBlocks>
+      <NumberofMissingBlocks>72822</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>34</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87566</NumberofComputedBlocks>
+      <NumberofMissingBlocks>73869</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>35</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>74406</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>36</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>74809</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>37</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>75208</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>38</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>75666</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>39</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>76135</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>40</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>76487</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>41</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>76795</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>42</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>77116</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>43</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>77419</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>44</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>77746</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>45</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>78169</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>46</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>78508</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>47</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>78758</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>48</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>78983</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>49</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>79197</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>50</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>79361</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>51</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>79536</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>52</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>79679</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+    <SummaryReportData>
+      <Bench>53</Bench>
+      <NumberofErrorBlocks>0</NumberofErrorBlocks>
+      <NumberofComputedBlocks>87720</NumberofComputedBlocks>
+      <NumberofMissingBlocks>79742</NumberofMissingBlocks>
+      <NumberofUnderBlocks>0</NumberofUnderBlocks>
+      <NumberofOverBlocks>0</NumberofOverBlocks>
+    </SummaryReportData>
+  </SummaryRepList>
+  <DetailRepList />
+  <GlobalVariables>
+    <GlobalVariables>
+      <VariableName>GV_slopeDomain</VariableName>
+      <Type>real</Type>
+      <Value xsi:type="xsd:string">0</Value>
+      <Description />
+      <BatchMode>false</BatchMode>
+    </GlobalVariables>
+  </GlobalVariables>
+  <PyPreScript># Initialize Script
+</PyPreScript>
+  <PyCalcScript># Main Script
+#Tenke code level 3 slope angles
+#Last updated: 20 January 2021 by juliaJP and mollyR for FWAL ph4 model
+
+from math import radians, atan, tan, sin, degrees
+
+$(L0SLP) = $(undefined)
+$(BFA) = $(undefined)
+$(BENWT) = $(undefined)
+$(BENHT) = $(undefined)
+$(SECTR) = $(undefined)
+$(SLOPE) = $(undefined)
+
+
+"""
+# coding level 0 angles
+"""
+
+# if rock type is coded, set slope angle to 34
+if $(RTYPM) != $(undefined):
+    $(L0SLP) = 34
+
+    # if pit and geology orientation coded
+    if $(WDIST) != $(undefined) and $(LOMDR) &gt;=0 and $(DIPAZ) &gt;= 0: 
+        # mineseries
+        if ($(RTYPM) == 41 or $(RTYPM) == 51 or $(RTYPM) == 61 or $(RTYPM) == 71 or $(RTYPM) == 81):
+            # bedding dipping into wall (toppling mechanism)
+            if $(INOUT) == 3 :
+                if abs($(DIP)) &gt;= 77 or abs($(DIP)) &lt;=45:
+                    $(L0SLP) = 40
+                elif abs($(DIP)) &gt;=46 and abs($(DIP)) &lt; 50:
+                    $(L0SLP) = 37
+                elif abs($(DIP)) &gt;=50 and abs($(DIP)) &lt; 55:
+                    $(L0SLP) = 34
+                elif abs($(DIP)) &gt;=55 and abs($(DIP)) &lt; 68:
+                    $(L0SLP) = 32
+                elif abs($(DIP)) &gt;=68 and abs($(DIP)) &lt; 73:
+                    $(L0SLP) = 34
+                elif abs($(DIP)) &gt;=73 and abs($(DIP)) &lt; 77:
+                    $(L0SLP) = 37
+
+        # bedding dipping into pit (potential sliding mechanism)
+            elif $(INOUT) == 1 :
+                if abs($(APDIP)) &gt;60: 
+                    $(L0SLP) = 38
+                if abs($(APDIP)) &lt;=60:
+                    $(L0SLP) = 34
+
+        # endwall
+            elif $(INOUT) == 4:
+                $(L0SLP) = 38
+
+    # cap at 40
+    if $(L0SLP) &gt; 40:
+        $(L0SLP) = 40
+
+    # weathered zone
+    if $(WXZON) == 0:
+        $(WXZON) = 1
+    if $(WXZON) == 1 and $(LEVEL) == 0:
+        $(L0SLP) = 30
+
+
+
+
+"""
+# coding level 3 angles for fwal ph 4
+"""
+# arbitrary line 1 (southwest)
+# &lt;0 is west, &gt;0 is east
+x1 = 407679.00
+x2 = 407702.50
+y1 = 8830032.00
+y2 = 8829811.25
+a1Check = (x2 - x1)*($(north)- y1) - (y2 - y1)*($(east) - x1)
+# arbitrary line 2 (northeast)
+# &lt;0 is west, &gt;0 is east
+x1 = 407965.96
+x2 = 407954.20
+y1 = 8830111.48
+y2 = 8830046.71
+a2Check = (x2 - x1)*($(north)- y1) - (y2 - y1)*($(east) - x1)
+
+# pit bottom check
+# &lt;0 is south &gt;0 is north
+if $(LOMDR) &gt;= 90 and $(LOMDR)&lt;=270:
+    pitBottom = 1
+else:
+    pitBottom = -1
+
+# if below original topo
+if $(TOPOO) &gt;= 0 and $(WDIST) != $(undefined):
+    if $(RTYPM) != $(undefined):
+        # if rgs rock group 
+        if $(RTYPM) == 11 or $(RTYPM) == 89 or $(RTYPM) == 91:
+            # if west of arb sectr ln1 or north of approx pit bottom 
+            # if west of arb sectr ln 2 and in domain 1
+            if a1Check &lt; 0:
+                $(SECTR) = 3
+                $(SLOPE) = 32
+            if ((a1Check &lt; 0 and ($(DOMAN)==1 or $(DOMAN)==2)) or ($(north) &gt; 8830010 and pitBottom &gt; 0)) and a2Check &lt;= 0 and $(DOMAN) != 8:
+                $(SECTR) = 1
+                $(SLOPE) = 42
+            else:
+                # east of  arb sectr ln1 is 36
+                if a1Check &gt;= 0:
+                    $(SECTR) = 2
+                    $(SLOPE) = 36
+                # west of  arb sectr ln1 is 32
+                else:
+                    $(SECTR) = 3
+                    $(SLOPE) = 32
+        else:
+            # east of  arb sectr ln1 is 36
+            if a1Check &gt; 0:
+                $(SECTR) = 2
+                $(SLOPE) = 36
+            # west of  arb sectr ln1 is 32
+            else:
+                $(SECTR) = 3
+                $(SLOPE) = 32
+
+        if $(RTYPM) == 11 or $(RTYPM) == 41 or $(RTYPM) ==51:
+            # if btwn of arb sectr ln1 and 2 and north of approx pit bottom 
+            if (a1Check &lt; 0 and pitBottom &gt; 0) or ($(north) &gt; 8830010 and pitBottom &gt; 0) and a2Check &lt;0:
+                $(SECTR) = 1
+                $(SLOPE) = 42
+#######################
+## wx zone overprint ##
+#######################
+# if below original topo and within 100m of pit wall
+if $(TOPOO) &gt;= 0 and $(WDIST) != $(undefined):
+    if $(WXZON) == 1:
+        if $(WXDST) &lt;= 16:
+            if $(SLOPE) &gt; 32 or $(SLOPE) == $(undefined):
+                $(SECTR) = 4
+                $(SLOPE) = 32
+            elif $(SLOPE) &lt;= 32:  # upper 15m of WXZON 1 - if SLOPE is &gt;32, set to 32 
+                $(SLOPE) = $(SLOPE)
+        if $(WXDST) &gt; 16 and ($(SLOPE) &gt; 36 or $(SLOPE) == $(undefined)):
+            $(SLOPE) = 36
+            $(SECTR) = 5
+        elif $(SLOPE) &lt;= 36:  # upper 15m of WXZON 1 - if SLOPE is &gt;32, set to 32 
+            $(SLOPE) = $(SLOPE)
+
+
+    #######################
+    ### L0 if wdist&gt;100 ###
+    #######################
+    if $(WDIST) != $(undefined) and $(SLOPE) != $(undefined) :
+        $(LEVEL) = 3
+    if $(WDIST) == $(undefined):
+        $(LEVEL) = 0
+        $(SLOPE) = $(L0SLP)
+        $(SECTR) = $(undefined)
+    
+if $(TOPOO) == $(undefined) or $(RTYPM) == $(undefined):
+    $(L0SLP) = $(undefined)
+    $(SECTR) = $(undefined)
+    $(SLOPE) = $(undefined)
+
+#######################
+# code bench geometry #
+#######################
+
+
+#######################
+# code bench geometry #
+#######################
+if $(SLOPE) != $(undefined):
+    $(BENHT) = 15
+    if $(SLOPE) &lt;= 28:
+        $(BFA) = 36
+    elif $(SLOPE) &lt;= 31:
+        $(BFA) = 40
+    elif $(SLOPE) &lt;= 33:
+        $(BFA) = 43
+    elif $(SLOPE) &lt;= 35:
+        $(BFA) = 45
+    elif $(SLOPE) &lt;= 37:
+        $(BFA) = 50
+    elif $(SLOPE) &lt;= 42:
+        $(BFA) = 55
+    elif $(SLOPE) &lt;= 45:
+        $(BFA) = 60    
+
+    $(BENWT) = $(BENHT)*((1/tan(radians($(SLOPE))))-(1/tan(radians($(BFA)))))
+
+           
+
+
+
+</PyCalcScript>
+  <PyPostScript># Final Script
+</PyPostScript>
+  <ReportElapsedTime>22.852 seconds</ReportElapsedTime>
+  <ResultsBatchRun>false</ResultsBatchRun>
+  <SummaryBatchRun>false</SummaryBatchRun>
+  <DetailBatchRun>false</DetailBatchRun>
+</MCTSettings>
